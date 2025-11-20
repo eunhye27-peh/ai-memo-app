@@ -54,7 +54,7 @@ ${content}
     let tags: string[] = []
     try {
       // 응답에서 JSON 배열 추출 시도
-      const jsonMatch = responseText.match(/\[.*?\]/s)
+      const jsonMatch = responseText.match(/\[[\s\S]*?\]/)
       if (jsonMatch) {
         tags = JSON.parse(jsonMatch[0])
       } else {

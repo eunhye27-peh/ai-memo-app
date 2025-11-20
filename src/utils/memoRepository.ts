@@ -1,4 +1,4 @@
-import { Memo, MemoFormData } from '@/types/memo'
+import { Memo } from '@/types/memo'
 import { supabase } from '@/lib/supabaseClient'
 
 export const memoRepository = {

@@ -61,7 +61,7 @@ export default function MemoViewer({
       setSummaryError(null)
       setIsLoadingSummary(false)
     }
-  }, [isOpen, memo?.id, memo?.summary])
+  }, [isOpen, memo])
 
   const handleGenerateSummary = async () => {
     if (!memo) return
