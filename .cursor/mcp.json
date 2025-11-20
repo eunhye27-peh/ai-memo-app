@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "url": "https://mcp.supabase.com/mcp?project_ref=oxkptcqwndydbhiaryof"
+    },
+    "playwright-mcp": {
+      "command": "npx",
+      "args": ["@playwright/mcp@0.0.32"]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    }
+  }
+}
